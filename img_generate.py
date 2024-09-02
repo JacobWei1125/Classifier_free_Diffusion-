@@ -13,7 +13,7 @@ diffusion=DDPM(
     image_size=28,
     timesteps=1000
 ).to('cuda')
-model.load_state_dict(torch.load('./traing_weight/0821_32_1000weight.pt',map_location='cuda'))
+model.load_state_dict(torch.load('./training_weight/0821_32_1000weight.pt',map_location='cuda'))
 
 image_classes = torch.arange(0,10).cuda() 
 print(image_classes)

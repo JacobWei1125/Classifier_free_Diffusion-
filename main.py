@@ -45,4 +45,4 @@ for epoch in pbar:
         optimizer.step()
         pbar.set_postfix({"Loss":loss.item()})
         record=loss.item()
-torch.save(model.state_dict(),'./traing_weight/0821_32_1000weight.pt')
+torch.save(model.state_dict(),'./training_weight/0821_32_1000weight.pt')

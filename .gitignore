@@ -3,4 +3,5 @@ img/*.png
 0821diffusion_model_class.pptx
 0821class.ipynb
 data_preprocess.ipynb
-traing_weight
+traing_weight/*.pt
+number_data/*.pt
